@@ -1,0 +1,10 @@
+cars = ["Lambo", "Maybach", "Stage 5 M5CS", "GT63s", "Audi"]
+print(cars)
+print(len(cars))
+print(cars[4])
+print(cars[1:5])
+cars.append("buggati")
+cars.pop(4)
+cars.remove("Lambo")
+cars.insert(4, "Laferrari")
+print(cars)

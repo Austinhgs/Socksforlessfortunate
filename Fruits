@@ -1,0 +1,21 @@
+fruits = ["orange", "apple", "banana", "mango", "Kiwi"]
+fruits.append("Jackfruit")
+fruits.insert(3, "pineapple")
+print(fruits)
+[orange, banana, grapes, dragonfruit, mango, pear, kiwi ]
+fruits.reverse()
+fruits.sort(reverse = True)
+def worldcount(e):
+    return len(e)
+fruits.sort(key=worldcount)
+print(fruits)
+
+cars.sprt(key=WordCount)
+print(fruits)
+
+fruits={'fruit':'kiwi', 'color':'green'}
+{'fruits':'apple', 'color':'red '}
+{'fruit':'banana', 'color':'yellow '}
+{'fruit':'pineapple', 'color':'yellow' }
+{'fruit':'mango', 'color':'orange '}
+{'fruit':'jackfruit', 'color':'green '}

@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Socks For Less Fortunate </title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url(image\ copy\ 2.png);
+  min-height: 70%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">LOGO</imagine></a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
+      <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> WORK</a>
+      <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> DONATIONS</a>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
+  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">DONATIONS/a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+   
+  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</header>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center">ABOUT THE ORGANIZATION</h3>
+  <p class="w3-center w3-large">SocksForLess is an organization dedicated to enhancing the lives of homeless individuals by supplying them with essential footwear, including socks and other necessary items. Understanding the vital role that proper foot care plays in overall health and well-being, SocksForLess works diligently to ensure that those in need receive clean, durable socks and shoes. Through the generosity of donors and the hard work of volunteers, the organization not only improves foot health and comfort for the homeless but also restores their dignity. SocksForLess's compassionate efforts underscore the impact of small yet significant acts of kindness in building a more caring and supportive community.</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+      <p class="w3-large">Responsive</p>
+      <p>Keep homeless people on the streets of the bay area warm and compatibile for their envoirnment.</p>
+    
+    </div>
+      <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Passion</p>
+      <p>Our passion is to be able to see the significance on this project help a vast majority of homeless people in the bay area get to a standard of being atleast warm in their surroundning</p>
+    </div>
+    <div class="w3-center">
+      <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Support</p>
+      <p>SocksForLess is a 501(c)(3) nonprofit organization. All donations are tax-deductible to the extent permitted by law.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Promo Section - "We know design" -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>Where we design our work.</h3>
+      <p>.</p>
+      <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> View Our Works</a></p>
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="https://upload.wikimedia.org/wikipedia/commons/1/1b/345park.jpg" alt="Main Building" width="700" height="394">
+    </div>
+  </div>
+</div>
+
+<!-- Team Section -->
+<div class="w3-container" style="padding:128px 16px" id="team">
+  <h3 class="w3-center">THE TEAM</h3>
+  <p class="w3-center w3-large">The ones who  and build up this organization.</p>
+  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="black_man.webp" alt="Austin" style="width:100%">
+        <div class="w3-container">
+          <h3>Austin. Fobbs</h3>
+          <p class="w3-opacity">CEO & Founder</p>
+          <p>Founded and funded the Socks For Less Fortunate organization when it was only a startup.</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="image.png" alt="Mike" style="width:100%">
+        <div class="w3-container">
+          <h3>John. Ross</h3>
+          <p class="w3-opacity">Web Designer</p>
+          <p>Advertised the organization and made the website that is still at an all time high relevant.</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="image copy.png" alt="Christohper " style="width:100%">
+        <div class="w3-container">
+          <h3>Chris. Jones</h3>
+          <p class="w3-opacity">Designer</p>
+          <p>Main designer for the material and structure of our socks.</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Promo Section "Statistics" -->
+<div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">14+</span>
+    <br>Spornsorships
+  </div>
+
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">50k+</span>
+    <br>Happy Civilians
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">150+</span>
+    <br>Meetings
+  </div>
+</div>
+
+<!-- Work Section -->
+<div class="w3-container" style="padding:128px 16px" id="work">
+  <h3 class="w3-center">OUR WORK</h3>
+  <p class="w3-center w3-large">What we've done for people has tramedously helped homeless people get the help they need health wise. Now you may view our most memorable projects.</p>
+
+  <div class="w3-row-padding" style="margin-top:82px">
+    <div class="w3-col l3 m6">
+      <p>First ever sock design</p>
+      <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRLi7nWlcoE7jbm2z9TYq8xcJvbeAcTc3AxjaETDomKINc6EqqeI-arGXAPBaIqpNsAQbn9hxj-vVPw9-1HN-vRWzyfOL1sCLXIdevkAQU&usqp=CAc" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="First Sock Deisgn">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Most comfortable Sock">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="images.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Most Flexible Sock">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="images-2.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="First Heat Warming Sock">
+    </div>
+  </div>
+
+
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Skills Section -->
+<div class="w3-container w3-light-grey w3-padding-64">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>Our Skills.</h3>
+      <p>Garnering spornsorships by maintaining a good buinesness profile.</p>
+      <p></p>
+    </div>
+    <div class="w3-col m6">
+      <p class="w3-wide"><i class="fa fa-dog w3-margin-right"></i></p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:90%">90%</div>
+      </div>
+      <p class="w3-wide"><i class="fa fa-desktop w3-margin-right"></i></p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:85%">85%</div>
+      </div>
+        <div class="w3-container w3-dark-grey w3-center" style="width:75%">75%</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Pricing Section -->
+<div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="pricing">
+  <h3>PRICING</h3>
+  <p class="w3-large">Donations make up 10% of funding for the Socks For Less Fortunate.</p>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Basic Donation</li>
+        <li class="w3-padding-16"><b>Endless</b> Support</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">$ 25</h2>
+          <span class="w3-opacity">One time</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-black w3-padding-large">Pay here</button>
+        </li>
+      </ul>
+    </div>
+    <div class="w3-third">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-red w3-xlarge w3-padding-48">Pro Donation</li>
+        <li class="w3-padding-16"><b>Endless</b> Support</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">$ 50</h2>
+          <span class="w3-opacity">One time</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-black w3-padding-large">Pay here</button>
+        </li>
+      </ul>
+    </div>
+    <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Premium Donation</li>
+        <li class="w3-padding-16"><b>Endless</b> Support</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">$ 100</h2>
+          <span class="w3-opacity">One time</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-black w3-padding-large">Pay Here</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">CONTACT</h3>
+  <p class="w3-center w3-large">Lets get in touch. Send us a message anytime at SocksForLessFortunteInc@gmail.com:</p>
+  <div style="margin-top:48px">
+    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Oakland, CA</p>
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> 510-731-9570</p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> SocksForLessFortunteInc@gmail.com</p>
+    <br>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-black" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+    <!-- Image of location/map -->
+    <img src="data:image/png;base64,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" class="w3-image w3-greyscale" style="width:100%;margin-top:48px">
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p>Powered by The Blackstone Group Inc.<a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green"></p>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>
